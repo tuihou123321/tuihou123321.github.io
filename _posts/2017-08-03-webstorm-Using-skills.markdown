@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "webstorm 使用技巧"
-date:   2017/8/3 16:28:14 
+date:   2017/8/3 16:28:14
 categories: ide
 ---
 
@@ -59,7 +59,7 @@ sublime像一把小巧的瑞士军刀，界面简洁，大部分设置操作都�
 **选择**
     选中单词(多次按扩大选择范围)   ctrl+w
     选择下一个相同的词 alt+j
- 
+
 
 **浏览**
     在默认浏览器中打开  alt+f2(再回车)
@@ -79,7 +79,7 @@ sublime像一把小巧的瑞士军刀，界面简洁，大部分设置操作都�
     指定包裹层  ctrl+alt+t
     重命名  shift+f6 (选中文件后再按，会自动把关联的文件名同时修改过来)
    ctrl+r  替换内容
-   输出模板 ctrl+j  
+   输出模板 ctrl+j
 
 **查看**
     切换目录侧边栏 alt+1
@@ -91,7 +91,7 @@ sublime像一把小巧的瑞士军刀，界面简洁，大部分设置操作都�
     显示当前css选择器或者JS函数的详细信息  ctrl+shift+i
 
 **其他功能**
-    收藏此文件  alt+shift+f   
+    收藏此文件  alt+shift+f
     快速查找并使用编辑所有功能  ctrl+shift+a
 
 **debug**相关
@@ -99,7 +99,7 @@ sublime像一把小巧的瑞士军刀，界面简洁，大部分设置操作都�
     f7  单步执行
     shift+f7  进入函数内
     shift+f8 跳出
-    alt+f9 
+    alt+f9
 
 
 

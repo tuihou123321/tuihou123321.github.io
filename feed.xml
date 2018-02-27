@@ -1,112 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-08-03T16:37:01+08:00</updated><id>http://localhost:4000/</id><title type="html">xiaozuo blog</title><subtitle>做过几年网页设计，现在从事前端开发，喜欢研究效率软件，希望把学到的东西与大家一起分享；
-</subtitle><entry><title type="html">webstorm 使用技巧</title><link href="http://localhost:4000/ide/2017/08/03/webstorm-Using-skills.html" rel="alternate" type="text/html" title="webstorm 使用技巧" /><published>2017-08-03T16:28:14+08:00</published><updated>2017-08-03T16:28:14+08:00</updated><id>http://localhost:4000/ide/2017/08/03/webstorm-Using-skills</id><content type="html" xml:base="http://localhost:4000/ide/2017/08/03/webstorm-Using-skills.html">&lt;p&gt;##webstorm2017 与sublime3 对比&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;webstorm，与sublime都是非常不错的代码编辑工具，但是设计理念完全不一样。
-webstorm是一个功能齐备的IDE，重型武器，各种配置项非常完善；
-sublime像一把小巧的瑞士军刀，界面简洁，大部分设置操作都是通过快捷键，命令行来实现，扩展性能极强（和chrome设计理念很像，都是依靠丰富的插件来实现更强大的功能）；&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;webstorm特色功能：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;语法检查(jsLint,ESLint)，js/css&lt;/li&gt;
-  &lt;li&gt;emmet快速代码编写功能&lt;/li&gt;
-  &lt;li&gt;内置debug功能，断点调试&lt;/li&gt;
-  &lt;li&gt;可以直接运行js代码,带控制台面板&lt;/li&gt;
-  &lt;li&gt;结合版本管理功能（git,svn）&lt;/li&gt;
-  &lt;li&gt;内置版本比较功能，每隔一段时间会自动保存，并且可以快速与每个版本进行比较；&lt;/li&gt;
-  &lt;li&gt;自带服务器功能，可直接模拟服务器环境&lt;/li&gt;
-  &lt;li&gt;可直接运行npm命令，快速启动项目&lt;/li&gt;
-  &lt;li&gt;可快速调用代码模板，ctrl+j&lt;/li&gt;
-  &lt;li&gt;函数快速间快速跳转，ctrl+鼠标左击；&lt;/li&gt;
-  &lt;li&gt;快速定位变量申请处，ctrl+b；&lt;/li&gt;
-  &lt;li&gt;自动保存，不用频繁按保存键&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;webstorm体验不如sublime的地方：&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;快捷键功能没有sublime强大：
-    &lt;blockquote&gt;
-      &lt;p&gt;比如sublime常用的快捷功能：&lt;/p&gt;
-    &lt;/blockquote&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;alt+f3快速选中所有相同的词（webstorm可以使用ctrl+f来间接实现该功能）；&lt;/li&gt;
-      &lt;li&gt;ctrl+j 合拼多行&lt;/li&gt;
-      &lt;li&gt;ctrl+shift+y  自动计算&lt;/li&gt;
-      &lt;li&gt;ctrl+shift+enter 在上一行插入&lt;/li&gt;
-      &lt;li&gt;f12 在默认浏览中打开&lt;/li&gt;
-      &lt;li&gt;ctrl+shift+n/j    快速新建html5,js文件&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;##webstorm皮肤插件推荐
-&lt;a href=&quot;https://github.com/ChrisRM/material-theme-jetbrains&quot; title=&quot;Material Theme皮肤预览&quot;&gt;Material Theme&lt;/a&gt;
-更多主题下载：http://www.phpstorm-themes.com/&lt;/p&gt;
-
-&lt;p&gt;##webstorm常用快捷键
-&lt;strong&gt;定位&lt;/strong&gt;
-    当前内容搜索 ctrl+f
-    全局内容搜索 ctrl+shift+f
-    文件名搜索  ctrl+shift+n
-    定位到指定代码行  ctrl+G
-    定位到变量申明处 ctrl+b
-    光标定位到代码块的前/后面 ctrl+[/]
-       光标定位到行首/尾  home/end
-       光标定位到下   shift+回车&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;选择&lt;/strong&gt;
-    选中单词(多次按扩大选择范围)   ctrl+w
-    选择下一个相同的词 alt+j&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;浏览&lt;/strong&gt;
-    在默认浏览器中打开  alt+f2(再回车)
-    上/下一个标签页  alt+方向（左/右）
-    关闭/恢复标签页  ctrl+f4
-    alt+ctrl+L  格式化代码查看&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;创建&lt;/strong&gt;
-    新建文件  alt+insert (再选择新建的类型)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;编辑&lt;/strong&gt;
-    复制一行（复制选中内容）  ctrl+d
-    删除一行  ctrl+y
-    当前内容替换 ctrl+r
-    全局内容替换 ctrl+shift+r
-    行上/下移  ctrl+shift+方向上/下
-    指定包裹层  ctrl+alt+t
-    重命名  shift+f6 (选中文件后再按，会自动把关联的文件名同时修改过来)
-   ctrl+r  替换内容
-   输出模板 ctrl+j&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;查看&lt;/strong&gt;
-    切换目录侧边栏 alt+1
-    切换收藏侧边栏 alt+2
-    折叠/展开选中的代码块  ctrl+’+/-‘
-    显示/隐藏所以打开的侧边栏  ctrl+shift+f12
-    分屏功能   鼠标右键选中标签页
-    最近修改过的文件  ctrl+e
-    显示当前css选择器或者JS函数的详细信息  ctrl+shift+i&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;其他功能&lt;/strong&gt;
-    收藏此文件  alt+shift+f &lt;br /&gt;
-    快速查找并使用编辑所有功能  ctrl+shift+a&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;debug&lt;/strong&gt;相关
-    f8  下一步（不进入函数）
-    f7  单步执行
-    shift+f7  进入函数内
-    shift+f8 跳出
-    alt+f9&lt;/p&gt;</content><author><name></name></author><summary type="html">##webstorm2017 与sublime3 对比 webstorm，与sublime都是非常不错的代码编辑工具，但是设计理念完全不一样。 webstorm是一个功能齐备的IDE，重型武器，各种配置项非常完善； sublime像一把小巧的瑞士军刀，界面简洁，大部分设置操作都是通过快捷键，命令行来实现，扩展性能极强（和chrome设计理念很像，都是依靠丰富的插件来实现更强大的功能）；</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/08/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-08-03T11:31:33+08:00</published><updated>2017-08-03T11:31:33+08:00</updated><id>http://localhost:4000/jekyll/update/2017/08/03/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/08/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
+    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}
+      <item>
+        <title>{{ post.title | xml_escape }}</title>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        {% for tag in post.tags %}
+        <category>{{ tag | xml_escape }}</category>
+        {% endfor %}
+        {% for cat in post.categories %}
+        <category>{{ cat | xml_escape }}</category>
+        {% endfor %}
+      </item>
+    {% endfor %}
+  </channel>
+</rss>
